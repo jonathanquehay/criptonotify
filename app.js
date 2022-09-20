@@ -1,11 +1,11 @@
-Push.create("Hola que tal es una notificacion!", {
+/* Push.create("Hola que tal es una notificacion!", {
     body: "Espero salga la notificacion'?",
     timeout: 4000,
     onClick: function () {
         window.focus();
         this.close();
     }
-});
+}); */
 
 setInterval("iniciar()", 1000);
 
